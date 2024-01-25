@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Montserrat&family=Open+Sans:wght@300;500&family=Roboto&family=Roboto+Flex:opsz,wght@8..144,200&family=Rubik:wght@500&family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('calc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+
+
+.container{
+    border: 2px solid rgb(188, 234, 236);
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 25px rgb(79, 119, 133);
+    transition: 0.4s;
+    
+}
+.container:hover{
+    transform: scale(1.08);
+}
+
+input{
+    
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(128, 243, 253, 0.336);
+    box-shadow: 0px 3px 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    color: rgb(1, 49, 61);
+    transition: 0.4s;
+}
+input:hover{
+   
+    background-color:rgba(174, 248, 248, 0.455);
+    color: rgb(0, 46, 46);
+}
+
+input::placeholder{
+    color: rgb(2, 42, 42);
+
+}
+
+button{
+    height:60px;
+    width: 60px;
+    margin: 10px ;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(125, 225, 225, 0.434);
+    box-shadow: 0px 3px 10px rgb(1, 62, 62);
+    color: rgb(227, 251, 255);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    
+
+}
+button:hover{
+    background-color: rgba(2, 99, 99, 0.2);
+    color: rgb(0, 45, 45);
+}
+
+
+.equal{
+    background-color: rgba(2, 68, 68, 0.864)
+}
